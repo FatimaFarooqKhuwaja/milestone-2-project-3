@@ -1,0 +1,381 @@
+body{
+  background-color: #081b29;
+}
+/* navbar styling start here  */
+#header{
+  display:flex;
+  justify-content: space-between;
+  width:full;
+  padding:20px 10%
+}
+
+#nav{
+  font-size: 20px;
+  display: flex;
+  gap: 40px;
+}
+
+#nav a {
+  color:orange;
+}
+
+#logo{
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  text-decoration: underline white;
+  color:rgb(233, 158, 20);
+}
+/* navbar styling start here  */
+
+/* Home Section Styling Start Here */
+
+
+#mainndiv{
+  display: flex;
+  justify-content: space-around;
+}
+
+#profile{
+  height: 500px;
+  width: 270px;
+}
+
+
+#heading{
+  font-size: 40px;
+  color:white;
+}
+
+#heading span{
+  font-size:60px;
+  color:rgb(233, 158, 20);
+}
+
+#heading2{
+  font-size: 30px;
+  color:white;
+  text-decoration: underline rgb(233, 158, 20);
+
+}
+#discription{
+  font-size:20px;
+  color:white;
+}
+
+#button{
+  margin:10px;
+  background-color: white;
+  height:50px;
+  width:130px;
+  border-radius: 20px;
+  border-width: 9px;
+  border-color: rgb(233, 158, 20);
+  font-size:15px;
+  color:rgb(233, 158, 20);
+  font-weight: bold;
+}
+#button:hover{
+  background-color: rgb(233, 158, 20);
+  border-color: white;
+  color:white;
+}
+/* Home Section Styling Ends Here */
+
+/* About Me Section Styling Start Here */
+#abouttittle{
+  margin-top: 50px;
+   margin-left: 50px;
+  color: orange;
+  font-size: 35px;
+  font-weight: bolder;
+  
+}
+
+  #about{
+  margin-left: 70px;
+    color: white;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-right: 20px;
+    line-height: 30px;
+    
+  }
+
+#skilltittle{
+  padding: 20px;
+  margin-left: 50px;
+  padding: 5px;
+  color: orange;
+  font-size: 35px;
+  font-weight: bolder;
+  
+}
+
+#skill{
+  margin-left: 70px;
+  color: white;
+  font-size: 17px;
+  line-height: 40px;
+
+ }
+
+ #experiencetittle{
+  padding: 20px;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 5px;
+  color: orange;
+  font-size: 35px;
+  font-weight: bolder;
+ }
+
+ #experience{
+  margin-left: 70px;
+  margin-top: 7px;
+  color: white;
+  font-size: 17px;
+ }
+
+#educationtittle{
+  padding: 20px;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 5px;
+  color: orange;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+ #education{
+ 
+  margin-left: 70px;
+    color: white;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-right: 20px;
+    line-height: 30px;
+    padding-bottom: 50px;
+ }
+
+/* About Me Section Styling Ends Here */
+
+/* Contact section starts here */
+
+#contacttittle{
+  margin-top: 35px;
+ padding:10px;
+  color: orange;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+#contact{
+  padding-left: 20px;
+  color: orange;
+  font-size: 23px;
+  margin-top: 8px;
+  font-weight: 700;
+}
+#contactin{
+    color: white;
+}
+
+#contactin:hover{
+  color: blue;
+}
+#thank{
+  font-size:40px;
+  font-weight:bold;
+  color:rgb(233, 158, 20);
+  padding:20px;
+}
+/* Contact section ends here*/
+
+
+
+
+
+
+
+
+  
+@media(max-width:600px){
+  /* navbar styling start here */
+  #header{
+    display:flex;
+    justify-content: space-between;
+    width:full;
+    padding:5px 2%;
+  }
+  
+  #nav{
+    font-size: 12px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  #logo{
+    
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-decoration: underline white;
+    color:rgb(233, 158, 20);
+  }
+
+  /* navbar styling start here */
+
+/* Home Section Styling Start Here */
+
+#mainndiv{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#profile{
+  height: 500px;
+  width: 260px;
+}
+
+
+
+  #heading{
+    font-size: 30px;
+    color:white;
+  }
+  #heading span{
+    font-size:50px;
+    color:rgb(233, 158, 20);
+  }
+  
+  #heading2{
+    font-size: 20px;
+    color:white;
+    text-decoration: underline rgb(233, 158, 20);
+  
+  }
+  #discription{
+    margin:10px;
+    font-size:15px;
+    color:white;
+  }
+
+  #button{
+    margin-top: 20px;
+    background-color: white;
+    height:50px;
+    width:130px;
+    border-radius: 20px;
+    border-width: 9px;
+    border-color: rgb(233, 158, 20);
+    font-size:15px;
+    color:rgb(233, 158, 20);
+    font-weight: bold;
+  }
+/* Home Section Styling Ends Here */ 
+
+
+ /* About Section Start Here */
+
+#abouttittle{
+  padding: 2px;
+  color: rgb(233, 158, 20);
+  font-size: 28px;
+  font-weight: bolder;
+  
+}
+
+#about{
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  margin-top: 8px;
+  margin-left: 10px;
+  line-height: 25px;
+  
+}
+
+#skilltittle{
+  
+  color: rgb(233, 158, 20);
+  font-size: 28px;
+  font-weight: bolder;
+  
+}
+
+#skill{
+  color: white;
+  font-size: 17px;
+  line-height: 40px;
+  margin-left: 10px;
+
+ }
+
+ #experiencetittle{
+  margin-top: 10px;
+  padding: 2px;
+  color: rgb(233, 158, 20);
+  font-size: 28px;
+  font-weight: bolder;
+ }
+
+ #experience{
+  margin-top: 7px;
+  color: white;
+  font-size: 17px;
+  margin-left: 10px;
+ }
+
+#educationtittle{
+  margin-top: 10px;
+  padding: 2px;
+  color: orange;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+ #education{
+  text-align: center;
+  margin-top: 7px;
+  color: white;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  line-height: 25px;
+ }
+ /* About Section Ends Here */
+
+/* Contact section starts here */
+
+#contacttittle{
+  margin-top: 30px;
+  padding: 20px;
+  color: orange;
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+#contact{
+  padding: 7px;
+  color: orange;
+  font-size: 15px;
+  margin-top: 8px;
+  font-weight: 700;
+}
+#contactin{
+    color: white;
+}
+
+#contactin:hover{
+  color: blue;
+}
+#thank{
+  font-size:20px;
+  font-weight:bold;
+  color:rgb(233, 158, 20);
+}
+/* Contact section ends here*/
+
+}
